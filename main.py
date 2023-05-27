@@ -23,21 +23,21 @@ class QuadraticEquation(QtWidgets.QMainWindow):
                 number = 2
             elif d == 0:
                 x1 = round((-b) / (2 * a), 2)
-                x2 = "нет"
+                x2 = "Нет"
                 number = 1
             else:
-                x1 = "нет"
-                x2 = "нет"
+                x1 = "Нет"
+                x2 = "Нет"
                 number = 0
             self.ui.textBrowser.setText(str(d))
             self.ui.textBrowser_2.setText(str(x1))
             self.ui.textBrowser_3.setText(str(x2))
             self.ui.textBrowser_4.setText(str(number))
         else:
-            d = "нет"
-            x1 = "нет"
-            x2 = "нет"
-            number = "нет"
+            d = "Нет"
+            x1 = "Нет"
+            x2 = "Нет"
+            number = "Нет"
             self.ui.textBrowser.setText(str(d))
             self.ui.textBrowser_2.setText(str(x1))
             self.ui.textBrowser_3.setText(str(x2))
